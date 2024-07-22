@@ -10,6 +10,7 @@ namespace TestRepository.Controllers
     {
         public ActionResult Index()
         {
+           string test = "Hello";
             return View();
         }
 
