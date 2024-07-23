@@ -11,6 +11,7 @@ namespace TestRepository.Controllers
         public ActionResult Index()
         {
            string test = "Hello";
+            string test = "Hello";
             return View();
         }
 
