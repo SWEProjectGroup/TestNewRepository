@@ -11,14 +11,14 @@ namespace TestRepository.Controllers
         public ActionResult Index()
         {
            string test = "Hello";
-            string test = "Hello";
+           
             return View();
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            string test = "test";
             return View();
         }
 
